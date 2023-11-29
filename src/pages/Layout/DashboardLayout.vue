@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <!-- <div class="wrapper" :class="{'nav-open': $sidebar.showSidebar}"> -->
+<!--     <div class="wrapper" :class="{'nav-open': $sidebar.showSidebar}"> -->
 
     <side-bar :background-color="backgroundColor">
       <!-- <mobile-menu slot="content"></mobile-menu> -->
@@ -131,24 +131,24 @@
 <style lang="scss"></style>
 
 <script>
-import TopNavbar from "./TopNavbar.vue";
-import ContentFooter from "./ContentFooter.vue";
+// import TopNavbar from "./TopNavbar.vue";
+// import ContentFooter from "./ContentFooter.vue";
 import DashboardContent from "./DashboardContent.vue";
-import SidebarShare from "./SidebarSharePlugin.vue";
+// import SidebarShare from "./SidebarSharePlugin.vue";
 import MobileMenu from "./MobileMenu.vue";
 import SideBar from "@/components/SidebarPlugin/SideBar.vue";
 import SidebarLink from "@/components/SidebarPlugin/SidebarLink.vue";
 
 export default {
   components: {
-    TopNavbar,
+    // TopNavbar,
     DashboardContent,
-    ContentFooter,
+    // ContentFooter,
     // eslint-disable-next-line vue/no-unused-components
     MobileMenu,
     SideBar,
     SidebarLink,
-    SidebarShare,
+    // SidebarShare,
   },
   data() {
     return {

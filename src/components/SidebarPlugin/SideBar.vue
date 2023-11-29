@@ -37,7 +37,7 @@ export default {
     },
     title: {
       type: String,
-      default: "cloudcomputing",
+      default: "cloud-computing",
     },
     backgroundColor: {
       type: String,
