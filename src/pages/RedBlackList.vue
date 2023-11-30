@@ -106,7 +106,7 @@ export default {
           },
           series: [
             {
-              name: "Access From",
+              name: "课程数量",
               type: "pie",
               radius: ["40%", "70%"],
               avoidLabelOverlap: false,

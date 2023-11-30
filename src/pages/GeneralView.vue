@@ -86,7 +86,7 @@ export default {
           },
           series: [
             {
-              name: "Access From",
+              name: "选课数",
               type: "pie",
               radius: "50%",
               data: vm.campus_pie_data,
@@ -144,7 +144,7 @@ export default {
           ],
           series: [
             {
-              name: "Direct",
+              name: "课程数量",
               type: "bar",
               barWidth: "60%",
               data: vm.department_bar_data_series,
