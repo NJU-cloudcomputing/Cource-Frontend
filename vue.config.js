@@ -21,4 +21,7 @@ module.exports = {
       },
     },
   },
+  publicPath: process.env.NODE_ENV === "production" ? "/course-frontend/" : "/",
+  outputDir: "dist",
+  assetsDir: "static",
 };
